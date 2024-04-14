@@ -43,5 +43,5 @@
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   },
-  "homepage": "https://snilsnil.github.io/Squid-Peanut/practice-react"
+  "homepage": "https://squid-peanut.github.io/practice-react/"
 }
