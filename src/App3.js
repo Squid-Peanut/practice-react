@@ -14,7 +14,7 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="movie/:id" element={<Detail />} />
             </Route>
-        )
+        ), { basename: process.env.PUBLIC_URL }
     );
     return <RouterProvider router={router} />
 }

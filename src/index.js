@@ -10,9 +10,9 @@ const root = ReactDOM.createRoot(container);
 //생성한 Root에 reactdom을 생성
 
 root.render(
-  // <React.StrictMode>
-  // <App />,
-  // <App2 />,
-  <App3 />
-  // </React.StrictMode>,
+  <React.StrictMode>
+    {/* <App />,
+  <App2 />, */}
+    <App3 />
+  </React.StrictMode>
 );
